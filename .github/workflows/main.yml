@@ -6,5 +6,7 @@ jobs:
   event_filters:
     runs-on: ubuntu-latest
     steps:
-      - run: echo "A review was created"
+      - run: |
+          echo "A review was created"
+          echo "Another line added"
       
