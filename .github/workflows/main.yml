@@ -1,0 +1,10 @@
+name: Event Filters
+on:
+  pull_request:
+    types: [opened, reopened]
+jobs:
+  event_filters:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "A review was created"
+      
